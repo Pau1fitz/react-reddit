@@ -1,0 +1,17 @@
+.logo {
+  height: 32px;
+  width: 32px;
+  padding: 8px 8px 8px 0;
+}
+  
+.logo-text {
+  height: 18px;
+  width: 56px;
+  margin-right: 20px;
+}
+
+.magnifying-glass-icon {
+  width: 18px;
+  height: 18px;
+  fill: rgb(140, 140, 140);
+}

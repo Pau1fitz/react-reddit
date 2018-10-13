@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+      "target": "es2016",
+      "module": "es6",
+      "allowJs": true,
+      "jsx": "preserve",
+      "strict": false,
+      "allowSyntheticDefaultImports": true,
+      "moduleResolution": "node",
+      "baseUrl": "src",
+      "strictNullChecks": true,
+      "noImplicitAny": false
+  },
+  "exclude": [
+      "node_modules"
+  ]
+}
