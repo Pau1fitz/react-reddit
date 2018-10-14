@@ -3,7 +3,7 @@ interface Action {
   type: string;
   token: {
     refresh_token: string;
-    access_token: string;
+    access_token: string
   }
 }
 
