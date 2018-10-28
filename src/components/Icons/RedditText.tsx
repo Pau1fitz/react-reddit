@@ -1,5 +1,5 @@
-import React from 'react';
-import './Icons.css';
+import React from 'react'
+import './Icons.css'
 
 export default () => (
   <svg className="logo-text" viewBox="0 0 55 17.44">
@@ -12,4 +12,4 @@ export default () => (
     <path fill="inherit" d="M52.91,16V7.44h1a1,1,0,0,0,1.06-1,1,1,0,0,0-1-1.09H52.91V3.76a1.18,1.18,0,0,0-1.08-1.19,1.15,1.15,0,0,0-1.23,1.15V5.38h-1a1,1,0,0,0-1.06,1,1,1,0,0,0,1,1.09h1V16a1.15,1.15,0,0,0,1.15,1.15h0A1.15,1.15,0,0,0,52.91,16Z"></path>
     </g>
   </svg>
-);
+)
