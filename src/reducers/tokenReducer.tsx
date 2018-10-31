@@ -22,10 +22,10 @@ export const tokenReducer = (state = initialState, action: Action) => {
     return {
       ...state,
       fetchTokenError: true
-    };
+    }
 
   default:
-    return state;
+    return state
   }
   
-};
+}
