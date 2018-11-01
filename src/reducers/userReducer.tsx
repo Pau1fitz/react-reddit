@@ -1,5 +1,5 @@
 
-const initialState = {};
+const initialState = {}
 interface Action {
   type: string;
   user: string
@@ -14,16 +14,16 @@ export const userReducer = (state = initialState, action: Action) => {
       ...state,
       user: action.user,
       fetchUserError: false
-    };
+    }
 
   case "FETCH_USER_ERROR":
     return {
       ...state,
       fetchUserError: true
-    };
+    }
 
   default:
     return state;
   }
   
-};
+}
