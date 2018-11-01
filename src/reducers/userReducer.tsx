@@ -22,7 +22,7 @@ export const userReducer = (state = initialState, action: Action) => {
     }
 
   default:
-    return state;
+    return state
   }
   
 }
