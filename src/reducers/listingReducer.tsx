@@ -23,6 +23,6 @@ export const listingReducer = (state = initialState, action: Action) => {
     };
 
   default:
-    return state;
-  }  
-};
+    return state
+  }
+}
