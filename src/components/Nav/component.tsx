@@ -1,5 +1,5 @@
-import React from 'react';
-import './Nav.css';
+import React from 'react'
+import './Nav.css'
 import RedditLogo from '../Icons/RedditLogo'
 import RedditText from '../Icons/RedditText'
 
@@ -11,7 +11,7 @@ const Nav = () => {
         <RedditText />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Nav;
+export default Nav
