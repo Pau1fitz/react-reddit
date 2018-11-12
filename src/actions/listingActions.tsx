@@ -2,8 +2,8 @@ export const getBestSuccess = (bestResults: []) => {
   return {
     type: 'GET_BEST_SUCCESS',
     bestResults
-  };
-};
+  }
+}
   
 export const searchError = (err: any) => {
   return {
