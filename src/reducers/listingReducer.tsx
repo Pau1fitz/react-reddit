@@ -13,14 +13,14 @@ export const listingReducer = (state = initialState, action: Action) => {
       ...state,
       bestResults: action.bestResults,
       searchError: false
-    };
+    }
 
   case "GET_BEST_ERROR":
     return {
       ...state,
       searchError: true
-    };
-
+    }
+      
   default:
     return state
   }
