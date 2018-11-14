@@ -14,7 +14,7 @@ export const searchReducer = (state = initialState, action: Action) => {
       ...state,
       searchResults: action.searchResults,
       searchError: false
-    };
+    }
 
   case "SEARCH_ERROR":
     return {
