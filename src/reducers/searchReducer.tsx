@@ -20,7 +20,7 @@ export const searchReducer = (state = initialState, action: Action) => {
     return {
       ...state,
       searchError: true
-    };
+    }
 
   default:
     return state;
