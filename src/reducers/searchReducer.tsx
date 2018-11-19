@@ -23,6 +23,6 @@ export const searchReducer = (state = initialState, action: Action) => {
     }
 
   default:
-    return state;
+    return state
   }  
-};
+}
